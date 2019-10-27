@@ -1,0 +1,24 @@
+.mb {
+    background: gray;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    filter: alpha(opacity=60);
+    opacity: 0.5 !important;
+}
+
+.tc {
+    position: fixed;
+    z-index: 50 !important;
+    width: 100%;
+    display: flex;
+}
+
+.tc-cfm {
+    margin: auto;
+    width: 200px;
+    border: 1px solid #999;
+}
